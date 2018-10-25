@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/([0-9]+) /restaurants.php?id=$1 [QSA,L]
